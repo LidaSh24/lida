@@ -7,7 +7,7 @@
  
 
 * <span style="color:grey"> Data bases
-* <span style="color:grey"> for what you did
+* <span style="color:grey"> Relational database management system (RDBMS) 
 * <span style="color:grey"> example: more practice with python
 
 ---
@@ -54,45 +54,75 @@ Note: NoSQL stands for Not Only SQL
 <span style="color:grey">
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database
 Most relational database management systems use the SQL language to access the database and run queries
-Examples of famous RDBMS are PostgreSQL, MySQL, Oracle, SQLite and Microsoft SQL Server (aka “dialects” or “flavors”)
+Examples of famous RDBMS are PostgreSQL, MySQL, Oracle, SQLite and Microsoft SQL Server 
+ 
+ ![](https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202021-11-10T153550_275.jpg)
+
 * Database Server
+
+  
 A database server is a computer which uses a DBMS that provides database services to other computers, as defined by the client–server model
 Users access a database server through a client program running on the user's computer
 To access the database server, you need the following:
 the database server's host IP address (a.k.a DB end-point, this can be the local host if the DB is local on our machine)
+
 Username 
+
 Password
+
 Port number (depends on the DBMS)
+
 Database name (because there can be multiple databases on the same server)
+
+ ![](https://nexnetsolutions.com/wp-content/uploads/2021/09/RDBMS.png)
 </span>
 ---
-## <span style="color:black"> __Links, Quotes, Pictures and GIFs__ </span>
-
-![](https://nexnetsolutions.com/wp-content/uploads/2021/09/RDBMS.png)
-![](https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202021-11-10T153550_275.jpg)
 
 
 ---
-## <span style="color:black"> __Taking Good Notes__ </span>
 
-<span style="color:grey">
-
-* stick to one style, e.g. links are in italic, keywords are in bold, dividers inbetween topics, etc.  
-* don't vary your text style too much, keep it simple
-* use bold and italic words rarely so they stand out more
-
-</span> 
 
 ---
 
-## <span style="color:black"> __Code inside notes__ </span> 
-You can insert blocks of code into your notes with Markdown by wrapping the code in backticks (\`)
-\`/from x import y\` becomes  
-`/from x import y`
+## <span style="color:black"> __What is SQL ?__ </span> 
+
+SQL stands for Structured Query Language
+
+It allows you access and manipulate relational databases
+
+It became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+
+There are different versions/flavors/dialects of the SQL language, depending on the database program used (ex. MySQL, MS Access, Microsoft SQL Server, Orcale)
+
+All versions are very similar in their construction and their support for the main commands
+
+SQL is one of the most important technical skills/tools for a data professional.
+
+Some of THE THINGS IT CAN DO:
+
+SQL can create and delete databases
+
+SQL can create and delete tables in a database
+
+SQL can insert, delete and update records in a database
+
+SQL can retrieve data from a database
+
+SQL can also clean retrieved data before further manipulation (with python for example) to carry out an analysis
+
+Database Structure
+
+A database consists of one/multiple schemas
+
+Schemas consist of tables
+
+Tables consist of columns and rows
+
+A column is a variable and has a unique name
+
+A row is an observation
+
+Every cell is a single value
 
 ---
-## <span style="color:black"> __Helpful References__
-* [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-* [Guide to Markdown for Documentation Writers](https://document360.com/blog/introductory-guide-to-markdown-for-documentation-writers/#p8)
-* [Markdown Crash Course by Traversy Media](https://www.youtube.com/watch?v=HUBNt18RFbo)
-* [Basic Markdown Introduction and Syntax by Mike Dane](https://www.youtube.com/watch?v=2JE66WFpaII)
+
