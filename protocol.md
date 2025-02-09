@@ -1,13 +1,12 @@
 # Day 09, 06.02.2025
 <span style="color:grey">
-This is a template for writing your protocols. You can exchange the grey text for your own.(You can also delete the "span" brackets - they look like this:\< span style="color:grey" >. Font colors are not displayed on github.)
 </span>
 
 ---
 ## <span style="color:black"> __Basic Overview__ </span>
  
 
-* <span style="color:grey"> short bullet points
+* <span style="color:grey"> Data bases
 * <span style="color:grey"> for what you did
 * <span style="color:grey"> example: more practice with python
 
@@ -18,46 +17,59 @@ This is a template for writing your protocols. You can exchange the grey text fo
 |Time|Content|
 |---|---|
 |09:00 - 10:00|Daily review|
-|10:00 - 12:00|SQL Excersie notebook|
+|10:00 - 12:00|SQL Exercise notebooks|
 |12:00 - 13:00|Lunch break|
-|13:00 - 16:00|Lunch Break| 
+|13:00 - 16:00|SQL Exercise notebooks| 
 |16:00 - 16:30|Stand up|
 |16:30 - 18:00|Exercises and Ending|
 
 ---
-## <span style="color:black"> __First Content Notes__ </span>
+## <span style="color:black"> __Types of Databases__ </span>
 <span style="color:grey">
-This is where you take notes on your content. In the following content blocks, you can find useful tips for markdown. When taking your own notes, just delete the text that is already there and write your own.  
+<span style="color:black"> 1-SQL database (relational databases) features: </span> 
+ 
+A relational database is table-oriented where every bit of data has a link with every other bit of data.It has a row-based table structure which connects related data elements.
+* use flexible queries to access data
+* use queries that span mutliple tables
+* enforce certain constraints on your data
+* well documented access language (SQL is ISO standardized)
+* examples: PostgreSQL, Mysql, Microsoft SQL Server, Oracle...
 
+ 
+2-NoSQL database features:
+A NoSQL database uses a variety of formats, such as documents, graphs, wide columns, etc, which offers great flexibility and scalability to a database design. 
 
-</span>
+Note: NoSQL stands for Not Only SQL
+* when your access patterns are known beforehand and simple
+* when data model fits (facebook connections graph)
+* when you need flexible data storage/need to avoid constraints (NoSQL databases are schemaless)
+* when you need low latency and easy horizontal scaling (ex: Apple has a 75,000-server NOSQL 
+  database!)
+* examples: Cassandra, MongoDB, HBase, DynamoDB
 
+![](https://www.kdnuggets.com/wp-content/uploads/williams-sql-nosql-2.jpeg)
 ---
-## <span style="color:black"> __Markdown Formatting__ </span>
+## <span style="color:black"> __Relational Database Management System (RDBMS)__ </span>
 
 <span style="color:grey">
-
-* you make a heading with \#, one for a level one heading, which is the largest - you can go down to level 6
-* starting a new line: use a double space
-* use single asterisks or underscores to make words italic (\*words* makes *words*) 
-* use double asterisks or underscores to make words bold (\*\*this** makes **this**)
-* use both at the same time with three asterisks or hyphens (\_\_\_ x ___ makes ___x___)
-* you make a divider with three hyphens (---)
-* you can make unordered lists with an asterisk (*) and ordered list with any number, a period and a space: \1.  
-(__super useful__: it doesn't matter which number you choose, it will be displayed as 1,2, etc. )
+A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database
+Most relational database management systems use the SQL language to access the database and run queries
+Examples of famous RDBMS are PostgreSQL, MySQL, Oracle, SQLite and Microsoft SQL Server (aka “dialects” or “flavors”)
+* Database Server
+A database server is a computer which uses a DBMS that provides database services to other computers, as defined by the client–server model
+Users access a database server through a client program running on the user's computer
+To access the database server, you need the following:
+the database server's host IP address (a.k.a DB end-point, this can be the local host if the DB is local on our machine)
+Username 
+Password
+Port number (depends on the DBMS)
+Database name (because there can be multiple databases on the same server)
 </span>
 ---
-
 ## <span style="color:black"> __Links, Quotes, Pictures and GIFs__ </span>
 
-* you can use links in your notes by using this formatting:  
-[link text](link URL “title”) becomes [neue fische website](https://www.neuefische.de/ "neue fische website")
-* you can also use pictures in your notes by using this format:   
-![image text](image URL) becomes ![neue fische logo](https://www.neuefische.de/neuefische-gmbh-logo.svg)
-* block quotes: you can highlight a quote from someone by using an angle bracket (>), for example: 
-    > I think there is a world market for maybe five computers. - Thomas J. Watson Sr.
-* use GIFs with the same formatting as links and pictures, the URL you use must end with .gif and if it expires, your gif will not be seen anymore  
-example: ![Fish Gif](https://media.giphy.com/media/KAI3j7HLC93Lq/giphy.gif)
+![](https://nexnetsolutions.com/wp-content/uploads/2021/09/RDBMS.png)
+![](https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202021-11-10T153550_275.jpg)
 
 
 ---
