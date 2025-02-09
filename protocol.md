@@ -1,4 +1,4 @@
-# Day 01, 01.01.1970
+# Day 09, 06.02.2025
 <span style="color:grey">
 This is a template for writing your protocols. You can exchange the grey text for your own.(You can also delete the "span" brackets - they look like this:\< span style="color:grey" >. Font colors are not displayed on github.)
 </span>
@@ -17,12 +17,12 @@ This is a template for writing your protocols. You can exchange the grey text fo
 
 |Time|Content|
 |---|---|
-|09:00 - 10:00|Introduction|
-|10:00 - 11:30|First theoretical inputs|
-|11:30 - 12:30|Other theoretical inputs|
-|12:30 - 13:30|Lunch Break| 
-|13:30 - 15:00|Practical exercises|
-|15:00 - 17:00|Exercises and Ending|
+|09:00 - 10:00|Daily review|
+|10:00 - 12:00|SQL Excersie notebook|
+|12:00 - 13:00|Lunch break|
+|13:00 - 16:00|Lunch Break| 
+|16:00 - 16:30|Stand up|
+|16:30 - 18:00|Exercises and Ending|
 
 ---
 ## <span style="color:black"> __First Content Notes__ </span>
