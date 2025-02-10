@@ -8,7 +8,7 @@
 
 * <span style="color:grey"> Data bases
 * <span style="color:grey"> Relational database management system (RDBMS) 
-* <span style="color:grey"> example: more practice with python
+* <span style="color:grey"> What is SQL?
 
 ---
 ##  __Schedule__
@@ -53,7 +53,9 @@ Note: NoSQL stands for Not Only SQL
 
 <span style="color:grey">
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database
+ 
 Most relational database management systems use the SQL language to access the database and run queries
+
 Examples of famous RDBMS are PostgreSQL, MySQL, Oracle, SQLite and Microsoft SQL Server 
  
  ![](https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202021-11-10T153550_275.jpg)
@@ -62,8 +64,10 @@ Examples of famous RDBMS are PostgreSQL, MySQL, Oracle, SQLite and Microsoft SQL
 
   
 A database server is a computer which uses a DBMS that provides database services to other computers, as defined by the client–server model
+
 Users access a database server through a client program running on the user's computer
 To access the database server, you need the following:
+
 the database server's host IP address (a.k.a DB end-point, this can be the local host if the DB is local on our machine)
 
 Username 
@@ -110,7 +114,8 @@ SQL can retrieve data from a database
 
 SQL can also clean retrieved data before further manipulation (with python for example) to carry out an analysis
 
-Database Structure
+
+## <span style="color:black"> __Database Structure__ </span> 
 
 A database consists of one/multiple schemas
 
